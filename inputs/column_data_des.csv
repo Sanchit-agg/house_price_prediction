@@ -1,0 +1,22 @@
+﻿Column,Type,Description
+id,Categorical,A notation for a house.
+date,Numerical,Date sold.
+price,Numerical,Sale price.
+bedrooms,Numerical,Number of bedrooms.
+bathrooms,Numerical,Number of bathrooms.
+sqft_living,Numerical,Size of living area in square feet.
+sqft_lot,Numerical,Size of the lot in square feet.
+floors,Numerical,Total floors in the house.
+waterfront,Categorical,"‘1’ if the property has a waterfront, ‘0’ if not."
+view,Categorical,An index from 0 to 4 of how good the view of the property was.
+condition,Categorical,"Condition of the house, ranked from 1 to 5."
+grade,Categorical,Classification by construction quality which refers to the types of materials used and the quality of workmanship. Buildings of better quality (higher grade) cost more to build per unit of measure and command higher value.
+sqft_above,Numerical,Square feet above ground.
+sqft_basement,Numerical,Square feet below ground.
+yr_built,Numerical,Year built.
+yr_renovated,Numerical,Year renovated. ‘0’ if never renovated.
+zipcode,Categorical,5-digit zip code.
+lat,Numerical,Latitude coordinate.
+long,Numerical,Longitude coordinate.
+sqft_living15,Numerical,"Average size of interior housing living space for the closest 15 houses, in square feet."
+sqft_lot15,Numerical,"Average size of land lots for the closest 15 houses, in square feet."
